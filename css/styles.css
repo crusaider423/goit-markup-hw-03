@@ -1,0 +1,222 @@
+:root {
+  --navi_blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --border-cornflower: #e7e9fc;
+  --accent-iris: #4d5ae5;
+  --pressed_state-ocean: #404bbf;
+  --main-slate: #434455;
+  --bg_page-white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg_page-white);
+  color: var(--main-slate);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/** -------------------------Header ---------------------------- */
+.nav {
+}
+.logo-span {
+  color: var(--navi_blue);
+}
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-list-ref {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-list-ref:hover,
+.nav-list-ref:focus {
+  color: var(--pressed_state-ocean);
+}
+.address {
+  font-style: normal;
+}
+.address-list {
+}
+.address-list-item {
+}
+.address-list-ref {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-list-ref:hover,
+.address-list-ref:focus {
+  color: var(--pressed_state-ocean);
+}
+/** --------------------------Main ---------------------------*/
+/** herro */
+.herro {
+  background: var(--navyblue, #2e2f42);
+}
+.herro-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07; /* 60/56 */
+  letter-spacing: 0.02em; /* 1.12/56 */
+}
+.herro-btn {
+  font-family: "Roboto", sans-serif;
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.04em; /* 0.64/16 */
+  cursor: pointer;
+}
+.herro-btn:hover,
+.herro-btn:focus {
+  background-color: var(--pressed_state-ocean);
+}
+/** features  */
+.features {
+}
+.features-list {
+}
+.features-list-item {
+}
+.features-subtitle {
+  color: var(--navi_blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 24/20 */
+  letter-spacing: 0.02em; /* 0.4/20 */
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+/** what are we doing */
+.work {
+}
+.work-title {
+  color: var(--navi_blue);
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.11; /* 40/36 */
+  letter-spacing: 0.02em; /* 0.72/36 */
+}
+.work-list {
+}
+.work-list-item {
+}
+/** our team */
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+  color: var(--navi_blue);
+
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11; /* 40/36 */
+  letter-spacing: 0.02em; /* 0.72/36 */
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: var(--bg_page-white);
+}
+.team-subtitle {
+  color: var(--navi_blue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em; /* 24/20 */
+  letter-spacing: 0.02em; /* 0.4/20 */
+}
+.team-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+/** -----------------footer-------------------------- */
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+.logo {
+}
+.footer .logo-span {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
+/*! Portfolio */
+/** ------------------ main------------------------- */
+/** filter */
+.filter {
+}
+.filter-list {
+}
+.filter-list-item {
+}
+.filter-button {
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.04em; /* 0.64/16 */
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--ocean, #404bbf);
+  color: var(--white, #fff);
+}
+/** Gallery view */
+.gallery-list {
+}
+.gallery-list-item {
+}
+.gallery-ref {
+}
+.gallery-subtitle {
+  color: var(--navi_blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 24/20 */
+  letter-spacing: 0.02em; /* 0.4/20 */
+}
+.gallery-text {
+  color: var(--main-slate);
+  font-size: 16px;
+  line-height: 1.5; /* 24/16 */
+  letter-spacing: 0.02em; /* 0.32/16 */
+}
