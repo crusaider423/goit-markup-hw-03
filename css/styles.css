@@ -15,7 +15,7 @@ body {
 .container {
   padding: 0 15px;
   width: 100%;
-  max-width: 1128px;
+  max-width: 1158px;
   margin: 0 auto;
 }
 .visually-hidden {
@@ -59,20 +59,20 @@ img {
 }
 /** -------------------------Header ---------------------------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: flex;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .container-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav {
   display: flex;
-  /* gap: 76px; */
-  /* align-items: center; */
+  align-items: center;
 }
 .logo-span {
   color: var(--navi_blue);
@@ -85,14 +85,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .nav-list-item {
-  }
+}
 .nav-list-ref {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
@@ -130,7 +130,7 @@ img {
   background: var(--navyblue, #2e2f42);
 }
 .hero-wrap {
-  padding: 188px 316px;
+  padding: 188px;
 }
 .hero-title {
   color: var(--white, #fff);
@@ -138,8 +138,9 @@ img {
   font-size: 56px;
   line-height: 1.07; /* 60/56 */
   letter-spacing: 0.02em; /* 1.12/56 */
-  margin-bottom: 48px;
-  width: 496px;
+
+  max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -150,12 +151,14 @@ img {
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.04em; /* 0.64/16 */
   cursor: pointer;
-  display: block;
 
+  display: block;
   border: none;
   border-radius: 4px;
   margin: 0 auto;
   padding: 16px 22px;
+  min-width: 169px;
+  height: 56px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -164,9 +167,11 @@ img {
 /** features  */
 .features {
 }
-.features-list {
+.features-wrap {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.features-list {
   display: flex;
   gap: 24px;
 }
@@ -189,6 +194,9 @@ img {
 /** what are we doing */
 .work {
 }
+.work-wrap {
+  padding-bottom: 120px;
+}
 .work-title {
   color: var(--navi_blue);
   font-size: 36px;
@@ -200,10 +208,8 @@ img {
   margin-bottom: 72px;
 }
 .work-list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
-  /* justify-content: space-between; */
 }
 .work-list-item {
 }
@@ -215,7 +221,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.team-subtitle-text-wrap {
+  padding: 32px 0;
+  text-align: center;
+}
 .team-title {
   color: var(--navi_blue);
   text-align: center;
@@ -231,6 +240,7 @@ img {
 }
 .team-list-item {
   background-color: var(--bg_page-white);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
   color: var(--navi_blue);
@@ -239,7 +249,7 @@ img {
   font-weight: 500;
   line-height: 1.2em; /* 24/20 */
   letter-spacing: 0.02em; /* 0.4/20 */
-  margin-top: 32px;
+
   margin-bottom: 8px;
 }
 .team-text {
@@ -247,17 +257,16 @@ img {
   font-size: 16px;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
-  margin-bottom: 32px;
 }
 /** -----------------footer-------------------------- */
 .footer {
   background: var(--navyblue, #2e2f42);
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer .logo {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
 .footer .logo-span {
   color: var(--cloud);
@@ -307,17 +316,24 @@ img {
 .filter-button:focus {
   background: var(--ocean, #404bbf);
   color: var(--white, #fff);
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /** Gallery view */
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .gallery-list-item {
-  border: 1px solid var(--cornflower, #E7E9FC);
 }
 .gallery-ref {
+}
+.gallery-subtitle-text-wrap {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
 }
 .gallery-subtitle {
   color: var(--navi_blue);
@@ -325,8 +341,6 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 24/20 */
   letter-spacing: 0.02em; /* 0.4/20 */
-
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .gallery-text {
@@ -334,5 +348,4 @@ img {
   font-size: 16px;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
-  margin-bottom: 32px;
 }
