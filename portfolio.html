@@ -9,187 +9,199 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <!--? Header -->
-    <header>
-      <nav class="nav">
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-span">Studio</span></a
-        >
-        <ul class="nav-list list">
-          <li class="nav-list-item">
-            <a href="./index.html" class="nav-list-ref link">Studio</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="./portfolio.html" class="nav-list-ref link">Portfolio</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="" class="nav-list-ref link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-list-item">
-            <a href="mailto:info@devstudio.com" class="address-list-ref link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-list-item">
-            <a href="tel:+110001111111" class="address-list-ref link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="container container-header">
+        <nav class="nav">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-span">Studio</span></a
+          >
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-ref link">Studio</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./portfolio.html" class="nav-list-ref link">Portfolio</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-ref link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-list-item">
+              <a href="mailto:info@devstudio.com" class="address-list-ref link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a href="tel:+110001111111" class="address-list-ref link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--? Main  -->
     <main>
       <!--? Filter -->
       <section class="filter">
-        <h1 hidden>Filter</h1>
-        <ul class="filter-list list">
-          <li class="filter-list-item">
-            <button class="filter-button" type="button">All</button>
-          </li>
-          <li class="filter-list-item">
-            <button class="filter-button" type="button">Web Site</button>
-          </li>
-          <li class="filter-list-item">
-            <button class="filter-button" type="button">App</button>
-          </li>
-          <li class="filter-list-item">
-            <button class="filter-button" type="button">Design</button>
-          </li>
-          <li class="filter-list-item">
-            <button class="filter-button" type="button">Marketing</button>
-          </li>
-        </ul>
-        <!--? Gallery view -->
-        <ul class="gallery-list list">
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link">
-              <img
-                src="./images/bankingapp-8.jpg"
-                alt="Banking App Interface Concept"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Banking App Interface Concept</h2>
-              <p class="gallery-text">App</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link">
-              <img
-                src="./images/cashlesspayment-7.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Cashless Payment</h2>
-              <p class="gallery-text">Marketing</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link"
-              ><img
-                src="./images/meditationapp-6.jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Meditation App</h2>
-              <p class="gallery-text">App</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link">
-              <img
-                src="./images/taxiservice-5.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Taxi Service</h2>
-              <p class="gallery-text">Marketing</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link">
-              <img
-                src="./images/screenillustrations-4.jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Screen Illustrations</h2>
-              <p class="gallery-text">Design</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link"
-              ><img
-                src="./images/onlinecourses-3.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Online Courses</h2>
-              <p class="gallery-text">Marketing</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link"
-              ><img
-                src="./images/instagramstoriesconcept-2.jpg"
-                alt="Instagram Stories Concept"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Instagram Stories Concept</h2>
-              <p class="gallery-text">Design</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link"
-              ><img
-                src="./images/organicfood-1.jpg"
-                alt="Organic Food"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Organic Food</h2>
-              <p class="gallery-text">Web Site</p></a
-            >
-          </li>
-          <li class="gallery-list-item">
-            <a href="" class="gallery-ref link"
-              ><img
-                src="./images/freshcoffee-0.jpg"
-                alt="Fresh Coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="gallery-subtitle">Fresh Coffee</h2>
-              <p class="gallery-text">Web Site</p></a
-            >
-          </li>
-        </ul>
+        <div class="container">
+         <div class="filter-wrap">
+            <h1 class="visually-hidden">Filter</h1>
+            <ul class="filter-list list">
+              <li class="filter-list-item">
+                <button class="filter-button" type="button">All</button>
+              </li>
+              <li class="filter-list-item">
+                <button class="filter-button" type="button">Web Site</button>
+              </li>
+              <li class="filter-list-item">
+                <button class="filter-button" type="button">App</button>
+              </li>
+              <li class="filter-list-item">
+                <button class="filter-button" type="button">Design</button>
+              </li>
+              <li class="filter-list-item">
+                <button class="filter-button" type="button">Marketing</button>
+              </li>
+            </ul>
+            <!--? Gallery view -->
+            <ul class="gallery-list list">
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link">
+                  <img
+                    src="./images/bankingapp-8.jpg"
+                    alt="Banking App Interface Concept"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Banking App Interface Concept</h2>
+                  <p class="gallery-text">App</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link">
+                  <img
+                    src="./images/cashlesspayment-7.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Cashless Payment</h2>
+                  <p class="gallery-text">Marketing</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link"
+                  ><img
+                    src="./images/meditationapp-6.jpg"
+                    alt="Meditation App"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Meditation App</h2>
+                  <p class="gallery-text">App</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link">
+                  <img
+                    src="./images/taxiservice-5.jpg"
+                    alt="Taxi Service"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Taxi Service</h2>
+                  <p class="gallery-text">Marketing</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link">
+                  <img
+                    src="./images/screenillustrations-4.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Screen Illustrations</h2>
+                  <p class="gallery-text">Design</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link"
+                  ><img
+                    src="./images/onlinecourses-3.jpg"
+                    alt="Online Courses"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Online Courses</h2>
+                  <p class="gallery-text">Marketing</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link"
+                  ><img
+                    src="./images/instagramstoriesconcept-2.jpg"
+                    alt="Instagram Stories Concept"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Instagram Stories Concept</h2>
+                  <p class="gallery-text">Design</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link"
+                  ><img
+                    src="./images/organicfood-1.jpg"
+                    alt="Organic Food"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Organic Food</h2>
+                  <p class="gallery-text">Web Site</p></a
+                >
+              </li>
+              <li class="gallery-list-item">
+                <a href="" class="gallery-ref link"
+                  ><img
+                    src="./images/freshcoffee-0.jpg"
+                    alt="Fresh Coffee"
+                    width="360"
+                    height="300"
+                  />
+                  <h2 class="gallery-subtitle">Fresh Coffee</h2>
+                  <p class="gallery-text">Web Site</p></a
+                >
+              </li>
+            </ul>
+         </div>
+        </div>
       </section>
     </main>
     <!--? Footer  -->
     <footer class="footer">
-      <a href="./index.html" class="logo link"
-        >Web<span class="logo-span">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo link"
+          >Web<span class="logo-span">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
