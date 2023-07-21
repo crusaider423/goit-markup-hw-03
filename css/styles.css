@@ -17,7 +17,7 @@ body {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
-}
+ }
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,13 +61,12 @@ img {
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
-.container-header {
+.header .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -91,6 +90,7 @@ img {
   padding: 24px 0;
 }
 .nav-list-item {
+  padding: 24px 0;
 }
 .nav-list-ref {
   color: var(--navyblue, #2e2f42);
@@ -287,6 +287,7 @@ img {
 }
 .filter-button {
   border: 1px solid var(--cornflower, #e7e9fc);
+  border-radius: 4px;
   background: var(--cloud, #f4f4fd);
 
   color: var(--iris, #4d5ae5);
@@ -323,6 +324,7 @@ img {
 .gallery-subtitle-text-wrap {
   padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
 }
 .gallery-subtitle {
   color: var(--navi_blue);
