@@ -59,8 +59,6 @@ img {
 }
 /** -------------------------Header ---------------------------- */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .container-header {
@@ -90,6 +88,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-list-item {
 }
@@ -128,9 +127,7 @@ img {
 /** herro */
 .hero {
   background: var(--navyblue, #2e2f42);
-}
-.hero-wrap {
-  padding: 188px;
+  padding: 188px 0;
 }
 .hero-title {
   color: var(--white, #fff);
@@ -166,8 +163,6 @@ img {
 }
 /** features  */
 .features {
-}
-.features-wrap {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -193,8 +188,6 @@ img {
 }
 /** what are we doing */
 .work {
-}
-.work-wrap {
   padding-bottom: 120px;
 }
 .work-title {
@@ -216,8 +209,6 @@ img {
 /** our team */
 .team {
   background-color: var(--cloud);
-}
-.team-wrap {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -283,8 +274,6 @@ img {
 /** ------------------ main------------------------- */
 /** filter */
 .filter {
-}
-.filter-wrap {
   padding-top: 96px;
   padding-bottom: 120px;
 }
