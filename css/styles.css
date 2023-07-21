@@ -17,7 +17,7 @@ body {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
- }
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,7 +61,7 @@ img {
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
-.header .container{
+.header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,17 +87,18 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  }
+}
 .nav-list-item {
-   padding: 24px 0;
-  }
+}
 .nav-list-ref {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
+
+  display: block;
+  padding: 24px 0;
 }
 .nav-list-ref:hover,
 .nav-list-ref:focus {
